@@ -6,7 +6,6 @@
  * A bit impruved version of the famous PI digits generator
  * https://crypto.stanford.edu/pbc/notes/pi/code.html
  */
-
 #include <stdio.h>
 #include <errno.h>
 #include <stdlib.h>
