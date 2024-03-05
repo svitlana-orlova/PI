@@ -4,14 +4,14 @@
 
 ## Why ?
 
-I didn't think it could be that difficult to calculate a specific number
-of digits for `PI`.
+I didn't think it could be so difficult to calculate a specific number
+of digits for `π`.
 
 ## First implementations
 
 As always the famous "someone else" [had such](https://crypto.stanford.edu/pbc/notes/pi/code.html) a problem.
 
-The solution is entirely based on *Dik T. Winter's* C program to compute the
+Their solution is entirely based on *Dik T. Winter's* C program to compute the
 first 800 digits of pi. Which looks like this:
 
 ```c
