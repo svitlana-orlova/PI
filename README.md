@@ -7,7 +7,7 @@
 I didn't think it could be so difficult to calculate a specific number
 of digits for `π`.
 
-## First implementations
+## PBC
 
 As always the famous "someone else" [had such](https://crypto.stanford.edu/pbc/notes/pi/code.html) a problem.
 
@@ -20,15 +20,15 @@ for(;d=0,g=c*2;c-=14,printf("%.4d",e+d/a),e=d%a)for(b=c;d+=f[b]*a,
 f[b]=d%--g,d/=g--,--b;d*=b);}
 ```
 
-### Implementation
+### Implementations:
 
-Currently, I've implemented the algorithm using three languages:
-
-    * [C](#)
-    * [JavaScript](#)
-    * [Perl](#)
+    * [pbc_pi.c](c/pbc_pi.c)
+    * [pbc_pi.js](js/pbc_pi.js)
+    * [pbc_pi.pl](perl5/pbc_pi.pl)
 
 *Fun fact* - each implementation generates different numbers.
+
+## 
 
 ## Licence
 
