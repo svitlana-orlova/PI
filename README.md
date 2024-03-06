@@ -41,6 +41,11 @@ leibniz_pi = g(1,0,1,1,3,3) where
              main = print (take 10 leibniz_pi)
 ```
 
+### Implementations:
+
+  * [lamberts_gib.py](references/lamberts_gib.py)
+  * [gib_orig.hs](references/gib_orig.hs)
+
 ## Licence
 
 GPLv2
